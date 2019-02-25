@@ -27,7 +27,7 @@ void List::Insert (DataType e)
 
 /* ordinary function - not a member function */
 void Swap (DataType& x, DataType& y)
-{                                
+{                                //function to swap x and y
   DataType Temp;
   Temp = x;
   x = y;
