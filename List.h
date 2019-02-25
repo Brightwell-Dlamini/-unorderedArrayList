@@ -16,8 +16,8 @@ List(void); //constructor -- can be overloaded; not a member function
 ~List(void);
 // data members - usually public, some may be private
 	
-bool IsEmpty ();
-bool IsFull  ();
+bool IsEmpty (); //calling fuction IsEmpty
+bool IsFull  ();//calling function IsFull
 void  Insert (DataType);
 void  Delete (DataType); 
 void  ShowData ();

@@ -1,13 +1,13 @@
 // ListApplication.cpp : Defines the entry point for the console application.
 //
 
-#include "stdafx.h"
+#include "stdafx.h"//This is my comment
 #include "list.h"
 #include <iostream>
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-List L;
+List L;//this is my other comment
 
 L.Insert (10); L.Insert (15); L.Insert (20);
 L.ShowData ();
@@ -28,3 +28,4 @@ std::cin.get();
 	return 0;
 }
 
+//MyLastComment

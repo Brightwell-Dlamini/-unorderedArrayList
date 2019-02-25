@@ -3,7 +3,7 @@
 #include <iostream>
 #include "List.h"
 
-using namespace std;
+using namespace std;     //this is my comment in this program
 
 List::List(void)
 {size = 0;}
@@ -29,7 +29,7 @@ void List::Insert (DataType e)
 void Swap (DataType& x, DataType& y)
 {                                
   DataType Temp;
-  Temp = x;
+  Temp = x;        //function to swap x and y
   x = y;
   y =Temp;
 }                                  
